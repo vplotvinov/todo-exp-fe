@@ -1,0 +1,29 @@
+.regionNorth {
+  padding-left: var(--layout-padding-left);
+  padding-right: var(--layout-padding-right);
+  padding-top: var(--layout-padding-top);
+}
+
+.regionWest {
+  width: 200px;
+}
+
+.regionCenter {
+  display: flex;
+  padding-left: var(--layout-padding-left);
+  padding-right: var(--layout-padding-right);
+  margin-top: 66px;
+}
+
+.left {
+  width: 277px;
+}
+
+.center {
+  width: 750px;
+  margin-left: 104px;
+}
+
+.todoListContainer {
+  margin-top: 56px;
+}

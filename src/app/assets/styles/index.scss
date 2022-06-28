@@ -1,0 +1,23 @@
+@import url('./reset.scss');
+@import url('./common/colors.scss');
+@import url('./common/layout.scss');
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--color-dark);
+  height: 100%;
+}
+
+.app {
+  position: relative;
+  z-index: 100;
+  height: 100vh;
+}
+
+.app > div {
+  height: 100vh;
+}

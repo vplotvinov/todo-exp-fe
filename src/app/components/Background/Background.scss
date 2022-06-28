@@ -1,0 +1,27 @@
+.root {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: transparent;
+
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  transition: opacity 0.25s ease-in;
+}
+
+.authed {
+  background-color: #93999c;
+  background-size: cover;
+  background-image: url('../../assets/images/bg-surf.jpg');
+}
+
+.notAuthed {
+  background-color: #93999c;
+  background-size: cover;
+  background-image: url('../../assets/images/bg-surf.jpg');
+}
